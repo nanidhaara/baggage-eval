@@ -8,6 +8,14 @@ quality reports in JSON or CSV.
 
 Independent, self-directed prototype.
 
+## How this was built
+
+I designed the system: the services, the evaluation rules and labels, and the
+data model. The code was written with the help of Claude Code, an AI coding
+assistant. I ran and verified everything on my own machine: unit tests, the
+Ginkgo/Gomega functional suite, Postgres integration tests, and the full stack
+in Docker with PostgreSQL and RabbitMQ.
+
 ## Architecture
 
 ```
